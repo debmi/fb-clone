@@ -24,7 +24,7 @@ function Login(): React.ReactElement {
     <div className='login'>
       <div className='logo'>
         <img src={fbNameLogo} alt='name logo' />
-        <h3>Facebook clone made using Typescript and React.</h3>
+        <h3>Facebook helps you connect and share with the people in your life.</h3>
       </div>
       <div className='loginCard'>
         <div className='card'>
