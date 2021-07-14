@@ -14,7 +14,6 @@ function App(): React.ReactElement {
         <Switch>
           <div className='App'>
             <PublicRoute path={ROUTES.SIGNIN} component={Login} exact />
-            <PrivateRoute path={ROUTES.HOME} component={Home} exact />
           </div>
         </Switch>
       </AuthProvider>
