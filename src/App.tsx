@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
 
-import { Login, Home } from './pages';
+import { Login } from './pages';
 import { PublicRoute, PrivateRoute } from './components';
 import { AuthProvider } from './context/auth';
 import './App.scss';
