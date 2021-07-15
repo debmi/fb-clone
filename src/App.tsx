@@ -7,14 +7,6 @@ import fbNameLogo from '../../assets/fbNameLogo.png';
 
 function App(): React.ReactElement {
 
-  const onSignIn = async () => {
-    try {
-      await signin();
-      history.push(ROUTES.HOME);
-    } catch (error) {
-      console.log(error.message);
-    }
-  };
 
   return (
     <div className='login'>
@@ -26,8 +18,8 @@ function App(): React.ReactElement {
         <div className='card'>
           <span className='title'>Sign In</span>
           <p>Sign in with your Google account</p>
-          <Button className='button' type='submit' onClick={onSignIn}>
-            SIGN IN
+          <Button className='button' type='submit' >
+            LOG IN
           </Button>
         </div>
       </div>
